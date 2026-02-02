@@ -32,22 +32,23 @@ A full written report is provided:
 ## Numerical Experiments
 
 - Comparison of **gradient descent** and **Nesterov acceleration** on  
-  \(f(x) = \frac14 x^4\)
+  $$f(x) = \frac{1}{4} x^4$$
 
 - Visualizations:
-  - trajectories \(x_k\)  
-  - evolution of \(f(x_k)\)  
-  - effect of different values of \(\alpha\) on stability and oscillations  
+  - trajectories $x_k$  
+  - evolution of $f(x_k)$  
+  - effect of different values of $\alpha$ on stability and oscillations  
   - convergence rates:  
-    - GD → \(O(1/k)\)  
-    - Nesterov → \(O(1/k^2)\)
+    - GD → $O(1/k)$  
+    - Nesterov → $O(1/k^2)$
 
-- Empirical analysis of α:
-  - α = 1, 2 → unstable oscillations  
-  - α = 10 → slow convergence  
-  - **α ≈ 3 → most balanced behaviour**
+- Empirical analysis of $\alpha$:
+  - $\alpha = 1, 2$ → unstable oscillations  
+  - $\alpha = 10$ → slow convergence  
+  - **$\alpha \approx 3$ → most balanced behaviour**
 
 - Experiments on better-conditioned quadratic functions showing faster convergence for both methods.
+
 
 ---
 
