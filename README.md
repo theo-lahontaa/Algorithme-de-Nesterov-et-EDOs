@@ -4,7 +4,7 @@ This repository presents a project studying the connection between the **Nestero
 The work includes theoretical derivations, discretization via explicit Euler schemes, and numerical experiments comparing Nesterov’s method with classical gradient descent.
 
 A full written report is provided:
-**Algorithme de Nesterov et Équations Différentielles Ordinaires** :contentReference[oaicite:0]{index=0}
+**Algorithme de Nesterov et Équations Différentielles Ordinaires** :
 
 ---
 
@@ -30,6 +30,7 @@ A full written report is provided:
 ---
 
 ## Numerical Experiments
+Results are presented in the report; the experiment code is not included in this repository.
 
 - Comparison of **gradient descent** and **Nesterov acceleration** on  
   $$f(x) = \frac{1}{4} x^4$$
